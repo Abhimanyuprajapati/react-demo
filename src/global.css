@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-image: linear-gradient(rgb(245, 239, 218), rgb(245, 217, 123));
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 0.1rem;
+}
+
+.hoheader {
+    width: 100%;
+}
+
+.hoheader span {
+    display: flex;
+    justify-content: center;
+}
+
+.hommain {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+
+.hommain .hommain01 {
+    width: 40%;
+}
+
+.hommain .hommain02 {
+    width: 60%;
+}
+
+.hommain .hommain02 strong {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.hommain .hommain02 p li {
+    padding: 0rem 0rem;
+    font-size: 14px;
+    margin-left: 1.2rem;
+}
+
+.downbottom {
+    padding: 0.5rem;
+}
+
+.downbottom .downbottom02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downbottom img {
+    width: 80%;
+    height: auto;
+}
+
+.downbottom .downbottom03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.downbottom hr {
+    border: 2px solid red;
+    margin: 1rem 0.3rem;
+}
+
+.downbottom strong {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.downbottom .downbottom04 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.footerbottom {
+    margin: 1rem 0.5rem;
+    padding: 2rem;
+    background-color: rgb(254, 62, 19);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.footerbottom .MuiSvgIcon-root {
+    margin-bottom: -0.4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hommain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 0.8rem;
+    }
+
+    .hommain .hommain01 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hommain .hommain01 .homn01 {
+        width: 50%;
+        height: 80%;
+    }
+
+    .hommain .hommain02 {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .hommain02 .homm02 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hommain .hommain02 strong {
+        width: 100%;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .hommain .hommain02 p li {
+        padding: 0rem 0rem;
+        font-size: 14px;
+        margin-left: 1.2rem;
+    }
+
+    .downbottom img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footerbottom {
+        margin: 1rem 0.5rem;
+        padding: 2rem;
+        background-color: rgb(254, 62, 19);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    }
+
+    .footerbottom .MuiSvgIcon-root {
+        margin-bottom: -0.4rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hommain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 0.8rem;
+    }
+
+    .hommain .hommain01 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hommain .hommain01 .homn01 {
+        width: 50%;
+        height: 80%;
+    }
+
+    .hommain .hommain02 {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .hommain02 .homm02 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hommain .hommain02 strong {
+        width: 100%;
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .hommain .hommain02 p li {
+        padding: 0rem 0rem;
+        font-size: 14px;
+        margin-left: 1.2rem;
+    }
+
+    .downbottom img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footerbottom {
+        margin: 1rem 0.5rem;
+        padding: 2rem;
+        background-color: rgb(254, 62, 19);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    }
+
+    .footerbottom .MuiSvgIcon-root {
+        margin-bottom: -0.4rem;
+    }
+}
